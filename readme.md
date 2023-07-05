@@ -1,3 +1,5 @@
+**Google Sheets currency converter**
+
 While working on a project for my master's program, I needed to convert and unify multiple different currencies into a single currency, USD. However, I couldn’t find an easy way to accomplish this.
 
 I had historical price data for several companies, but since these companies were based in different countries, the data was in various currencies.
@@ -27,6 +29,8 @@ Assuming you have dates in Column A and prices for Serbian Dinars in Column B, i
 Column A should be _date_ in format YYYY-MM-DD and column B should be the amount that needs to be converted from one currency to another.
 
 Historical rates are available for most currencies all the way back to the year of 1999.
+
+List of supported currencies: https://api.exchangerate.host/symbols
 
 Disclaimer:
 
